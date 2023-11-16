@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.loginContainer{
+    background-color: rgb(0, 0, 0);
+    /* border: 2px solid black; */
+    border-radius: 8px;
+    /* height: 500px; */
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-form{
+    padding: 20px;
+}
+
+.login-form h1{
+    text-align: center;
+    color: #333;
+}
+
+.input-container{
+    margin: 10px 0;
+}
+
+.input-container input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.loginButton{
+    width: 60%;
+    padding: 10px;
+    background-color: #852c2c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.IncorrectMessage{
+    color: red;
+}
+
+@media (max-width: 768px) {
+    .login-container {
+        max-width: 90%;
+    }
+}
