@@ -7,7 +7,7 @@ function Router() {
   return (
    
     <div>
-         <BrowserRouter>
+        <BrowserRouter>
         <Routes>
         <Route path="/Hospitallogin" element={<Hospital_log/>}/>
         </Routes>
