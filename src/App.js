@@ -1,13 +1,14 @@
-
-import logo from './logo.svg';
-import './App.css';
-
-import AppointmentForm from './AppointmentForm';
-import Router from './Router';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Hospital_log from './Hospital_log';
+import 
 function App() {
   return (
     <div className="App">
-    <Router></Router>
+    <BrowserRouter>
+    <Routes>
+    <Route element={<Hospital_log/>} path="/Hospitallogin" />
+    </Routes>
+    </BrowserRouter>
 
     </div>
   );
