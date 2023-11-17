@@ -1,11 +1,11 @@
-body{
+.Staff-login-mainDiv{
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 }
 
-.loginContainer{
+.staff-login-loginContainer{
     background-color: rgb(0, 0, 0);
     /* border: 2px solid black; */
     border-radius: 8px;
@@ -20,27 +20,27 @@ body{
     overflow: hidden;
 }
 
-.login-form{
+.staff-login-login-form{
     padding: 20px;
 }
 
-.login-form h1{
+.staff-login-login-form h1{
     text-align: center;
     color: #333;
 }
 
-.input-container{
+.staff-login-input-container{
     margin: 10px 0;
 }
 
-.input-container input{
+.staff-login-input-container input{
     width: 100%;
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
 }
 
-.loginButton{
+.staff-login-loginButton{
     width: 60%;
     padding: 10px;
     background-color: #852c2c;
@@ -50,12 +50,12 @@ body{
     font-size: 16px;
 }
 
-.IncorrectMessage{
+.staff-login-IncorrectMessage{
     color: red;
 }
 
 @media (max-width: 768px) {
-    .login-container {
+    .staff-login-login-container {
         max-width: 90%;
     }
 }

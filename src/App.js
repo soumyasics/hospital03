@@ -15,7 +15,6 @@ function App() {
         <Route path="/hospitalLog" element={<HospitalLog/>}/>
     </Routes>
     </BrowserRouter>
-
     </div>
   );
 }

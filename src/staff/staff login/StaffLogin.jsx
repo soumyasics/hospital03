@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import StaffProfilePage from "../StaffProfilePage";
-import "./login.css";
+import "./StaffLogin.css";
 // import { Link } from "react-router-dom";
 
 export default function StaffLogin() {
@@ -32,15 +32,15 @@ export default function StaffLogin() {
   };
 
   return (
-    <div>
+    <div className="Staff-login-mainDiv">
       {formControls.isLoggedIn ? (
         <StaffProfilePage />
       ) : (
         // <Link to='managementProfile' />
-        <div className="login-container">
-          <form className="login-form">
+        <div className="staff-login-login-container">
+          <form className="staff-login-login-form">
             <h1>Staff Login</h1>
-            <div className="input-container">
+            <div className="staff-login-input-container">
               <input
                 className="username"
                 type="text"
@@ -50,7 +50,7 @@ export default function StaffLogin() {
                 onChange={handleInputData}
               />
             </div>
-            <div className="input-container">
+            <div className="staff-login-input-container">
               <input
                 className="password"
                 type="password"
@@ -60,10 +60,10 @@ export default function StaffLogin() {
                 onChange={handleInputData}
               />
             </div>
-            <button className="loginButton" onClick={handleLogin}>
+            <button className="staff-login-loginButton" onClick={handleLogin}>
               Log In
             </button>
-            <p className="IncorrectMessage">{formControls.IncorrectMessage}</p>
+            <p className="staff-login-IncorrectMessage">{formControls.IncorrectMessage}</p>
             {/* <p>Forgot Password?</p> */}
             <a>Don't have an account? Sign In</a>
           </form>
