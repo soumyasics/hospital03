@@ -3,12 +3,17 @@ import logo from './logo.svg';
 import './App.css';
 
 import AppointmentForm from './AppointmentForm';
-import Router from './Router';
+//import Router from './Router';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-    <Router></Router>
-
+      { <BrowserRouter>
+      <Routes>
+        <Route element={<AppointmentForm/>} path="/AppoimentForm"/>
+      </Routes>
+      </BrowserRouter>
+  }
     </div>
   );
 }
