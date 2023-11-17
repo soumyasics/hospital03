@@ -1,14 +1,21 @@
-
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import StaffLogin from './staff/staff login/StaffLogin'
+import AppointmentForm from './staff/Appointment/AppointmentForm';
+import HospitalLog from './Hospital management/HospitalLog';
 
-import AppointmentForm from './AppointmentForm';
-import Router from './Router';
 function App() {
   return (
     <div className="App">
-    <Router></Router>
-
+    <BrowserRouter>
+      <Routes>
+      <Route element={<StaffLogin/>} path="/" />  
+        <Route element={<StaffLogin/>} path="/staffLogin" />
+        <Route path="/appointmentForm" element={<AppointmentForm/>}/>
+        <Route path="/hospitalLog" element={<HospitalLog/>}/>
+      </Routes>
+      </BrowserRouter>
     </div>
   );
 }
