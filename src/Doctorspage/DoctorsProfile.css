@@ -1,0 +1,116 @@
+
+  
+
+.doctors-maincondainer {
+    width: 1128px;
+    height: 800px;
+    /* background-color: rgb(207, 163, 207); */
+    position: relative;
+    left: 12.4%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* .main-verticaldiv {
+    width: 1130px;
+    height: 819px;
+    position: absolute;
+    left: 5.8%;
+    top: 5.5%;
+    display: flex;
+    flex-wrap: wrap;
+  } */
+  .drprofile-condainer {
+    width: 270px;
+    height: 700px;
+    margin: 6px;
+    border-radius: 8px;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  .image-condainer {
+    width: 254px;
+    height: 330px;
+    /* background-color: blue; */
+    position: absolute;
+    margin-left: 5.9px;
+    /* border-radius: 50%; */
+    border-bottom: 1px solid rgb(0, 0, 0);
+  }
+  #drimage {
+    width: 120%;
+    height: 100%;
+    position: absolute;
+    left: -23px;
+  }
+  .adressbook {
+    width: 266px;
+    height: 210px;
+    /* background-color: rgb(68, 204, 127); */
+    position: absolute;
+    top: 42%;
+  }
+  .view-address {
+    width: 180px;
+    height: 50px;
+    background-color: blue;
+    /* position: absolute; */
+    position: relative;
+    top: 80%;
+    left: 15.5%;
+    border-radius: 25px;
+  }
+  .view-address:hover {
+    background-color: red;
+  }
+  #text-viewdeatils {
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    text-align: center;
+    left: 45px;
+    top: 14px;
+  }
+  .appointment-condainer {
+    width: 240px;
+    height: 50px;
+    background-color: red;
+    /* position: absolute; */
+    position: relative;
+    top: 575px;
+    left: 13px;
+    border-radius: 25px;
+    text-align: center;
+  }
+  .appointment-condainer:hover {
+    background-color: blue;
+  }
+  #appointment-text {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+    top: 13px;
+  }
+  #dr-names{
+    margin-left: 67px;
+    margin-top: 11px;
+    font-weight: 550;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .department-condainer{
+    width: 190px;
+    height: 70px;
+    /* background-color: red; */
+    position: absolute;
+    left: 38px;
+    top: 120px;
+    text-align: center;
+   border-bottom: 1px solid black;
+   border-top: 1px solid black;
+
+    
+  }
+  #department-text{
+    margin-top: 19px;
+    font-size: 17px;
+  }
