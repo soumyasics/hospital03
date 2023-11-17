@@ -1,5 +1,5 @@
-import mendr from "../LIb/mendr.png"
-import Ladaydr from "../LIb/Ladaydr.png"
+import mendr from "../Assets/mendr.png"
+import Ladaydr from "../Assets/Ladaydr.png"
 export const Doctors = [
     {
         Drname:"Dr. jinesh",
@@ -22,22 +22,22 @@ export const Doctors = [
         imageId:mendr,
     },
    {
-    Drname:"Dr.",
+    Drname:"",
     Department:"",
     imageId:mendr,
    },
    {
-    Drname:"Dr.",
+    Drname:"",
     Department:"",
     imageId:mendr,
    },
    {
-    Drname:"Dr. ",
+    Drname:" ",
     Department:"",
     imageId:mendr,
    },
    {
-    Drname:"Dr. ",
+    Drname:" ",
     Department:"",
     imageId:mendr,
    }

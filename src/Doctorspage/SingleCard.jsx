@@ -5,32 +5,34 @@ import {DoctorsProfile} from "./DoctorsProfile";
 function SingleCard() {
   return (
     
-    <div className="bodyView-details">
-      <div className="bodyView-rawLinksContainer">
+    <div className="Singledrprofile-body">
+      <div className="Singledrprofile-rawLinksContainer">
         <a id="LinkTofind" href="#">
           Home
         </a>
         <a id="LinkTofind">| </a>
-        <Link to="/find doctors" id="LinkTofind" href="#">
+        <Link to="/doctorspage" id="SingledrprofileLinkTofind" href="#">
           Find Doctors
         </Link>
       </div>
-      <div className="profileContainer">
-        <div className="imageContainer"></div>
-        <div className="textContainer">
-          <h1 id="DoctorName"></h1>
-          <h4 id="DDqText">Cardiology</h4>
+      <div className="Singledrprofile-ProfileContainer">
+        <div className="Singledrprofile-imageContainer"></div>
+        <div className="Singledrprofile-textContainer">
+          <div className="Singleprofile-textAlign">
+          <h1 id="Singledrprofile-DoctorName">DR NAME</h1>
+          <h4 id="Singledrprofile-DDqText">Cardiology</h4>
           <br />
-          <h5 id="DDqText">Designation :</h5>
+          <h5 id="Singledrprofile-DDqText">Designation :</h5>
           <br />
-          <h5 id="DDqText">Qualifications:</h5>
+          <h5 id="Singledrprofile-DDqText">Qualifications:</h5>
           <br />
           <br />
-          <h5 id="QuotesText">
+          <h5 id="Singledrprofile-QuotesText">
             “As a caregiver, you see selfless acts everyday.”
           </h5>
-          <div className="appointmentbooking">
-            <h5 id="appointmentText">Book an Appointment</h5>
+          </div>
+          <div className="Singledrprofile-Appointmentbooking">
+            <h5 id="Singledrprofile_AppointmentText">Book an Appointment</h5>
           </div>
         </div>
       </div>

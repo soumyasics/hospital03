@@ -5,15 +5,18 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import {BrowserRouter,Route,Routes} from "react-router-dom"
 import Navbar from './Navbar/Navbar'
 import DoctorsProfile from './Doctorspage/DoctorsProfile';
+import SingleCard from './Doctorspage/SingleCard';
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-<Navbar/>
+      <Navbar/>
       <Routes>
        <Route path='/doctorspage'element={<DoctorsProfile/>}/>
+       <Route path='viewdetails' element={<SingleCard/>}/>
       </Routes>
       </BrowserRouter>
+      
     </div>
   );
 }

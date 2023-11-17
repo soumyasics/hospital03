@@ -1,68 +1,55 @@
 
   
 
-.doctors-maincondainer {
-    width: 1128px;
-    height: 800px;
-    /* background-color: rgb(207, 163, 207); */
-    position: relative;
-    left: 12.4%;
+.DoctorsProfile-maincondainer {
+    width: 67%;
+    min-height: 800px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
   }
   
-  /* .main-verticaldiv {
-    width: 1130px;
-    height: 819px;
-    position: absolute;
-    left: 5.8%;
-    top: 5.5%;
-    display: flex;
-    flex-wrap: wrap;
-  } */
-  .drprofile-condainer {
+  .DoctorsProfile-Subcondainer {
     width: 270px;
     height: 700px;
     margin: 6px;
     border-radius: 8px;
     border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    margin-top: 15px;
   }
-  .image-condainer {
+  .DoctorsProfileImage-condainer {
     width: 254px;
     height: 330px;
-    /* background-color: blue; */
     position: absolute;
     margin-left: 5.9px;
-    /* border-radius: 50%; */
     border-bottom: 1px solid rgb(0, 0, 0);
   }
-  #drimage {
+  #DoctorsProfile-drimage{
     width: 120%;
     height: 100%;
     position: absolute;
     left: -23px;
   }
-  .adressbook {
+  .DoctorsProfile-adressbook {
     width: 266px;
     height: 210px;
-    /* background-color: rgb(68, 204, 127); */
     position: absolute;
-    top: 42%;
+    top: 50%;
   }
-  .view-address {
+  .DoctorsProfileView-address {
     width: 180px;
     height: 50px;
     background-color: blue;
-    /* position: absolute; */
     position: relative;
     top: 80%;
     left: 15.5%;
     border-radius: 25px;
   }
-  .view-address:hover {
+  .DoctorsProfileView-address:hover {
     background-color: red;
   }
-  #text-viewdeatils {
+  #DoctorsProfileText-viewdeatils {
     text-decoration: none;
     color: white;
     position: absolute;
@@ -70,37 +57,35 @@
     left: 45px;
     top: 14px;
   }
-  .appointment-condainer {
+  .DoctorsProfileTextAppointment-condainer {
     width: 240px;
     height: 50px;
     background-color: red;
-    /* position: absolute; */
     position: relative;
     top: 575px;
     left: 13px;
     border-radius: 25px;
     text-align: center;
   }
-  .appointment-condainer:hover {
+  .DoctorsProfileTextAppointment-condainer:hover {
     background-color: blue;
   }
-  #appointment-text {
+  #DoctorsProfileAppointment-text {
     color: white;
     text-decoration: none;
     text-align: center;
     position: relative;
     top: 13px;
   }
-  #dr-names{
-    margin-left: 67px;
+  #DoctorsProfileDr-names{
+    margin-left: 17px;
     margin-top: 11px;
     font-weight: 550;
     font-family: Arial, Helvetica, sans-serif;
   }
-  .department-condainer{
+  .DoctorsProfileDepartment-condainer{
     width: 190px;
     height: 70px;
-    /* background-color: red; */
     position: absolute;
     left: 38px;
     top: 120px;
@@ -110,7 +95,7 @@
 
     
   }
-  #department-text{
+  #DoctorsProfileDepartment-text{
     margin-top: 19px;
     font-size: 17px;
   }

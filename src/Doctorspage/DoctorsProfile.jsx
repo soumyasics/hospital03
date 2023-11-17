@@ -7,26 +7,26 @@ import {Link} from "react-router-dom"
 function DoctorsProfile() {
   return (
     <div>
-      <div className="doctors-maincondainer">
+      <div className="DoctorsProfile-maincondainer">
         {Doctors.map((user) => {
           return (
-            <div className="drprofile-condainer">
-              <div className="image-condainer">
-                <img id="drimage" src={user.imageId} alt={user.Drname} />
+            <div className="DoctorsProfile-Subcondainer">
+              <div className="DoctorsProfileImage-condainer">
+                <img id="DoctorsProfile-drimage" src={user.imageId} alt={user.Drname} />
               </div>
-              <div className="adressbook">
-                <h5 id="dr-names">{user.Drname}</h5>
-                <div className="department-condainer">
-                  <h5 id="department-text">{user.Department}</h5>
+              <div className="DoctorsProfile-adressbook">
+                <h5 id="DoctorsProfileDr-names">{user.Drname}</h5>
+                <div className="DoctorsProfileDepartment-condainer">
+                  <h5 id="DoctorsProfileDepartment-text">{user.Department}</h5>
                 </div>
               </div>
-              <div className="view-address">
-                <Link to="/viewdeatils" id="text-viewdeatils" href="#">
+              <div className="DoctorsProfileView-address">
+                <Link to="/viewdetails" id="DoctorsProfileText-viewdeatils" href="#">
                   <h6>View Deatils</h6>
                 </Link>
               </div>
-              <div className="appointment-condainer">
-                <a id="appointment-text" href="#">
+              <div className="DoctorsProfileTextAppointment-condainer">
+                <a id="DoctorsProfileAppointment-text" href="#">
                   <h6>Book An Appointment</h6>
                 </a>
               </div>

@@ -2,9 +2,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./Doccard.css";
-import Arrowright from "../LIb/Arrowright.png";
-import Ladaydr from "../LIb/Ladaydr.png";
-import mendr from "../LIb/mendr.png";
+import Arrowright from "../Assets/Arrowright.png";
+import Ladaydr from "../Assets/Ladaydr.png";
+import mendr from "../Assets/mendr.png";
 
 function Doccard() {
   return (

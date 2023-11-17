@@ -2,18 +2,15 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import "./Navbar.css";
-// import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import {faBars} from "@fortawesome/free-solid-svg-icons"
-import whatsapp from "../LIb/whatsaap.png";
-import BMClogo from "../LIb/BMClogo.png";
+import whatsaapp from "../Assets/whatsapp.png";
+import BMClogo from "../Assets/BMClogo.png";
 function Navbar() {
   return (
-    <div className="main-div-style">
-      <div className="containerlogo">
-        <img className="bmclogo" src={BMClogo} href="#" />
-        <h3 className="bmcname">Beacon Medical Center</h3>
-        <div className="round"></div>
+    <div className="Navbar-main-div-style">
+      <div className="Navbar-containerlogo">
+        <img className="Navbar-bmclogo" src={BMClogo} href="#" />
+        <h3 className="Navbar-bmcname">Beacon Medical Center</h3>
+        <div className="NavbarContainer-round"></div>
       </div>
      
       <ul className="nav justify-content-end test1">
@@ -38,21 +35,20 @@ function Navbar() {
           </a>
         </li>
 
-        <div className="wts">
+        <div className="Navbar-wts">
           <li className="nav-item">
             <a
               className="nav-link "
               href="#"
               style={{ color: "green", fontSize: "18px", fontWeight: "bold" }}
             >
-              <img className="whatsapp" src={whatsapp} />
+              <img className="Navbar-whatsapp" src={whatsaapp} />
               Whatsapp
             </a>
           </li>
         </div>
       </ul>
-      <hr id="hrcolor"></hr>
-      {/* <br></br> */}
+      <hr id="Navbar-hrcolor"></hr>
       <ul className="nav justify-content-end test2">
         <li className="nav-item">
           <a className="nav-link " aria-current="page" href="#">
@@ -70,7 +66,7 @@ function Navbar() {
           </a>
         </li>
         <li className="nav-item">
-          <a id="menu-adj">Menu</a>
+          <a id="Navbar-menu-adj">Menu</a>
         </li>
 
         <nav className="navbar  ">

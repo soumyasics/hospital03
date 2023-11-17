@@ -1,33 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap");
 
-.bodyView-details {
+.Singledrprofile-body {
   width: 100%;
   height: 60vh;
   background-color: #ede8e8;
   display: flex;
+  margin-top: 2px;
+  position: relative;
 }
-.bodyView-rawLinksContainer {
+.Singledrprofile-rawLinksContainer {
   width: 75%;
   height: 2em;
-
   margin-left: 12.8%;
   position: absolute;
   top: 1em;
 }
-#LinkTofind {
+#SingledrprofileLinkTofind {
   padding: 1.8vw;
   text-decoration: none;
   font-size: 1.1vw;
   color: rgba(38, 36, 36, 0.747);
 }
-.profileContainer {
+.Singledrprofile-ProfileContainer{
   width: 80%;
   height: 50vh;
   position: relative;
   top: 60px;
   left: 29vh;
 }
-.imageContainer {
+.Singledrprofile-imageContainer{
   width: 22%;
   height: 40vh;
   border-radius: 12px;
@@ -35,25 +36,32 @@
   border: 1px solid black;
   box-shadow: 0 5px 9px 0 rgba(13, 0, 0, 0.2), 0 7px 21px 0 rgba(0, 0, 0, 0.19);
 }
-.textContainer {
+.Singledrprofile-textContainer {
   width: 60%;
   height: 44vh;
   position: absolute;
   top: 0px;
-  right: 195px;
+  right: 200px;
+ 
+  
 }
-#DoctorName {
+.Singleprofile-textAlign{
+ margin-right: 60%
+}
+#Singledrprofile-DoctorName {
   font-family: "Montserrat", sans-serif;
+  
+  
 }
-#DDqText {
+#Singledrprofile-DDqText {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-#QuotesText {
+#Singledrprofile-QuotesText {
   font-size: 17px;
   font-style: italic;
   color: rgba(0, 0, 0, 0.553);
 }
-.appointmentbooking {
+.Singledrprofile-Appointmentbooking {
   width: 310px;
   height: 3em;
   background-color: rgb(115, 115, 170);
@@ -64,11 +72,11 @@
   align-items: center;
   font-family: "Poppins", sans-serif;
 }
-.appointmentbooking:hover {
+.Singledrprofile-Appointmentbooking:hover {
   background-color: rgb(70, 71, 124);
   color: rgb(228, 213, 213);
 }
-#appointmentText{
+#Singledrprofile_AppointmentText{
   font-family: "Poppins", sans-serif;
   font-weight: 600;
 }
