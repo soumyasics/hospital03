@@ -1,0 +1,78 @@
+.doctors-schedule-main {
+  text-align: center;
+  margin: 20px;
+}
+
+.doctors-schedule-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.doctors-schedule-doctors-list {
+  flex: 1;
+  padding: 20px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.doctors-schedule-doctors-list h2 {
+  margin-bottom: 10px;
+}
+
+.doctors-schedule-doctors-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.doctors-schedule-doctors-list li {
+  cursor: pointer;
+  margin-bottom: 5px;
+  padding: 5px;
+  background-color: #cacaca;
+  border-radius: 5px;
+}
+
+.doctors-schedule-details-section {
+  flex: 2;
+  padding: 20px;
+  align-items: center;
+}
+
+.doctors-schedule-details-section h2 {
+  margin-bottom: 10px;
+}
+
+.doctors-schedule-details-section-box {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+/* .doctors-schedule-filter{
+    position: absolute;
+        
+}
+
+.doctors-schedule-searchbar{
+  width: 80%;
+}
+
+.doctorsScheduleData{
+    position: absolute;
+    right: 0;
+}
+
+.doctorsScheduleData table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #4e0b0b;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #4e0b0b15;
+  } */
