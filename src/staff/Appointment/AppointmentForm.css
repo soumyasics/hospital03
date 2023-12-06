@@ -1,18 +1,18 @@
-.main {
+.appointment-form-main {
     padding: 30px;
     /* background-image:url("https://thumbs.dreamstime.com/z/desk-calendar-table-blurred-bokeh-background-appointment-business-meeting-concept-259076779.jpg?w=2048"); */
     width: 100%;
-    height: 70;
+    height: 70%;
     background-size: cover;
     background-image: transparent;
     backdrop-filter: blur(20px);
   }
 
-  h2{
+  .appointment-form-sub h2{
     margin-top: 10px;    
   }
   
-  .sub {
+  .appointment-form-sub {
     border: 1 px solid blue;
     border-radius: 8px;
     text-align: center;
@@ -21,26 +21,26 @@
     width: 50%;
     margin-left: 25%;
   }
-  .formBox {
+  .appointment-form-formBox {
     padding-left: 1%;
   }
   
-  .userInput{
+  .appointment-form-userInput{
     margin-left: 70px;
     margin-right: 70px;
   }
-  .inputlabel{
+  .appointment-form-inputlabel{
     text-align: start;
     margin-left: 40px;
   }
 
   
-  .inputbox{
+  .appointment-form-inputbox{
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
-  button{
+  .appointment-form-btnbtn-primary{
     margin-bottom: 10px;
   }

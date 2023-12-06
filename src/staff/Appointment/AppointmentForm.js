@@ -11,7 +11,7 @@ function AppointmentForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add code to submit the form data to the backend API
+  
   };
 
   const handleChange = (e) => {
@@ -21,15 +21,15 @@ function AppointmentForm() {
 
   return (
     <div>
-      <div className="main">
-        <div className="sub">
+      <div className=" appointment-form-main">
+        <div className="appointment-form-sub">
           <h2>Book an Appointment</h2>
-          <div className="formBox">
+          <div className="appointment-form-formBox">
             <form onSubmit={handleSubmit}>
-              <div class="inputbox"  >
-                <b className="inputlabel">Name:</b>
+              <div class="appointment-form-inputbox"  >
+                <b className="appointment-form-inputlabel">Name:</b>
                 <input 
-                  className="userInput"
+                  className="appointment-form-userInput"
                   type="text"
                   name="name"
                   placeholder="Name"
@@ -38,8 +38,8 @@ function AppointmentForm() {
                 />
                 <br />
                 <br />
-                <b className="inputlabel">Gender:</b>
-                <select className="userInput">
+                <b className="appointment-form-inputlabel">Gender:</b>
+                <select className="appointment-form-userInput">
                   <option>Gender</option>
                   <option>Male</option>
                   <option>Female</option>
@@ -47,9 +47,9 @@ function AppointmentForm() {
                 </select>
                 <br />
                 <br />
-                <b className="inputlabel">Email:</b>
+                <b className="appointment-form-inputlabel">Email:</b>
                 <input
-                  className="userInput"
+                  className="appointment-form-userInput"
                   type="email"
                   name="email"
                   placeholder="Email"
@@ -58,18 +58,18 @@ function AppointmentForm() {
                 />
                 <br />
                 <br />
-                <b className="inputlabel">Date:</b>{" "}
+                <b className="appointment-form-inputlabel">Date:</b>{" "}
                 <input
-                  className="userInput"
+                  className="appointment-form-userInput"
                   type="date"
                   name="date"
                   value={formData.date}
                   onChange={handleChange}
                 />
                 <br /> <br />
-                <b className="inputlabel">Time:</b>
+                <b className="appointment-form-inputlabel">Time:</b>
                 <input
-                  className="userInput"
+                  className="appointment-form-userInput"
                   type="time"
                   name="time"
                   value={formData.time}
@@ -77,17 +77,17 @@ function AppointmentForm() {
                 />
                 <br />
                 <br />
-                <b className="inputlabel">Phone no:</b>
-                <input className="userInput" type="number" max="10" placeholder="number" />
+                <b className="appointment-form-inputlabel">Phone no:</b>
+                <input className="appointment-form-userInput" type="number" max="10" placeholder="number" />
                 <br />
                 <br />
-                <b className="inputlabel">Department:</b>
-                <select className="userInput">
+                <b className="appointment-form-inputlabel">Department:</b>
+                <select className="appointment-form-userInput">
                   <option>Department</option>
                   <option>Cardiology</option>
                   <option>Neurology</option>
                   <option>Radiology</option>
-                  <option>General medicine</option>
+                <option>General medicine</option>
                   <option>Urology</option>
                   <option>General Surgery</option>
                   <option>Nephrology</option>

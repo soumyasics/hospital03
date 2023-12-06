@@ -1,0 +1,9 @@
+.Myappointment_main2{
+    border: solid;
+    /* border-left: 30%; */
+     width: 30%;    
+  column-rule-style: solid;  
+  border-collapse: collapse;
+  border: 1px solid black; 
+  /* column-width: 100px; */
+} 
